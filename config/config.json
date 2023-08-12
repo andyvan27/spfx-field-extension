@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "link-filename-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/linkFilename/LinkFilenameFieldCustomizer.js",
+          "manifest": "./src/extensions/linkFilename/LinkFilenameFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LinkFilenameFieldCustomizerStrings": "lib/extensions/linkFilename/loc/{locale}.js"
+  }
+}

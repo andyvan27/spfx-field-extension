@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{0d2ddcdc-0e09-41a7-8ab1-18c8c99fc74d}"
+            Name="SPFxPercentage"
+            DisplayName="Percentage"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="7f971ddf-eb5b-4e64-bb00-5905d06b77f3">
+    </Field>
+</Elements>

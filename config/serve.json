@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://hsftrms.sharepoint.com/sites/ANGroup/Lists/Orders/",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "7f971ddf-eb5b-4e64-bb00-5905d06b77f3",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "linkFilename": {
+      "pageUrl": "https://hsftrms.sharepoint.com/sites/ANGroup/Lists/Orders/",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "7f971ddf-eb5b-4e64-bb00-5905d06b77f3",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
